@@ -1,9 +1,10 @@
-import './App.css';
-
+import { Practice } from './Pages/Practice';
+import {Rank} from './Pages/Rank';
 function App() {
   return (
     <div className="App">
-       <h1>Hello World</h1> 
+       <Practice />
+       <Rank />
     </div>
   );
 }
